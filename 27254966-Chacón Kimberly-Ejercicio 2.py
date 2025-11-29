@@ -12,6 +12,6 @@
 nombre = input("Ingrese su nombre: ")
 apellido = input("Ingrese su primer apellido: ")
 
-resultado = apellido + ", " + nombre
+resultado = apellido.upper() + ", " + nombre.upper()
 
 print("Welcome:", resultado)
